@@ -131,8 +131,6 @@ for c in x.columns:
         df_list.append(x[[c]])
 
 train2 = pd.concat(df_list, axis=1)
-
-train2 = pd.concat(df_list, axis=1)
 ```
 
 * **Result**: Running `logistic(train2, y)` raised the classification score to **`85.49%`**. 
